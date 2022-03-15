@@ -1,0 +1,261 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.fond {
+    position: absolute;
+    z-index: 0;
+    width: 100%;
+    top: -200px;
+    filter: brightness(60%);
+}
+
+/* BOUTON MAISON */
+
+.home {
+    position: absolute;
+    position: fixed;
+    top: 3%;
+    right: 2%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    z-index: 3;
+    -webkit-transform: scale(1);
+      transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.home:hover {
+    color: rgb(59, 197, 252);
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+/* LIGNE HORIZONTALE */
+
+.ligne1 { 
+    position: absolute;
+    width: 30%;
+    left: 0;
+    top: 75px;
+    z-index: 1;
+} 
+
+h1 {
+    position: relative;
+    font-family: Montserrat;
+    color: white;
+    font-weight: 400;
+    margin: 0 30px; 
+    z-index: 1;
+}
+
+.intro1,
+.intro1-1 {
+    position: relative;
+    text-align: center;
+    font-family: Helvetica Neue;
+    color: white;
+    font-weight: 100;
+}
+
+.intro1 {
+    margin-top: 100px;
+    font-size: 2.8em;
+}
+
+.intro1-1 {
+    font-size: 1.8em;
+}
+
+/* CONTACT FORM */
+
+label, .description {
+    position: relative;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.625rem;
+    font-family: Helvetica Neue;
+  }
+  
+  form {
+    width: 31.25rem;
+    position: relative;
+    padding: 1rem 0;
+    margin: 6% 30%;
+  }
+  
+  input, textarea, label {
+    width: 40vw;
+    display: block;
+  }
+  
+  p, placeholder, input, textarea {
+    font-family: Helvetica Neue;
+  }
+  
+  input::placeholder, textarea::placeholder {
+    color: white;
+  }
+  
+  input, textarea {
+    color: white;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 0.5rem 0;
+    margin-bottom: 1rem;
+    outline: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  button {
+    text-transform: uppercase;
+    font-weight: 300;
+    background: white;
+    color: black;
+    width: 10rem;
+    height: 2.25rem;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+    cursor: pointer;
+    margin: 30px 200px;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+  }
+  
+  input:hover, textarea:hover, button:hover {
+    opacity: 0.5;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+  }
+  
+  button:active {
+    opacity: 0.8;
+  }
+
+  /* RÉSEAUX SOCIAUX */
+
+  .logo-insta,
+  .logo-lk {
+      display: inline-block;
+      width: 100px;
+      height: 100px;
+      margin-left: 410px;
+      margin-top: 70px;
+      -webkit-transform: scale(1);
+      transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+
+  .logo-insta:hover,
+  .logo-lk:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+
+  .logo-insta,
+  .insta {
+      color: #E96EFF;
+  }
+
+  .logo-lk,
+  .linke {
+    color: #3581F5;
+  }
+
+
+  a {
+    text-decoration: none;
+    font-family: Helvetica Neue;
+    display:inline-flex;
+    margin: 15px 0;
+    font-weight: 500;
+  }
+
+  .insta {
+    margin-left: 410px;
+  }
+
+  .linke {
+    margin-left: 427px;
+  }
+
+  .cv {
+      display: inline-flex;
+      border: 1px solid white;
+      margin-top: 60px;
+      margin-left: 38%;
+      padding-right: 80px;
+      -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+  }
+
+  .cv:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+
+  .cv p {
+      color:white;
+      margin-top: 30px;
+      font-size: 1.5em;
+      padding: 20px 30px;
+  }
+
+  .logo-cv {
+      color: white;
+      transform: rotate(45deg);
+      width: 80px;
+      height: 80px;
+      padding: 20px 20px;
+  }
+
+  /* FOOTER */
+
+.ligne2 { 
+    width: 85%;
+    margin-top: 70px;
+}
+
+.footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin: 40px 40px;
+}
+
+.footer strong:nth-child(1) {
+    font-weight: 200;
+}
+
+.footer strong:nth-child(2) {
+    font-weight: 400;   
+}
+
+
+
+  
+
+
+
+
+

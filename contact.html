@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css-mobile/contact-mobile.css">
+    <script src="function.js"></script>
+    <title>Contact</title>
+</head>
+<body>
+
+    <a href="index.html"><ion-icon class="home" name="home"></ion-icon></a>
+
+
+    <h1>CONTACTEZ MOI</h1>
+
+    <hr class="ligne1">
+
+   <img class="fond"src="img/img-contact/img-fond.JPG" alt=""> -->
+
+    <p class="intro1">N’hésitez pas et écrivez moi !</p>
+    <p class="intro1-1">Si vous souhaitez avoir davantage d’informations me concernant ou si vous voulez simplement me contacter</p>  
+    
+
+    <form id="contact-form" method="post" action="mail.php">
+
+        <label for="name">Nom</label>
+    <input type="text" id="name" name="name" placeholder="Votre nom" required>
+
+        <label for="email">Adresse mail</label>
+    <input type="email" id="email" name="email" placeholder="Votre adresse mail" required>
+
+    <label for="objet">Objet</label>
+    <input type="text" id="objet" name="objet" placeholder="Sujet du mail" required>
+        
+        <label for="message">Message</label>
+    <textarea rows="6" placeholder="Votre message" id="message" name="message" required></textarea>
+
+        <!--<a href="javascript:void(0)">--><button type="submit" id="submit" name="submit">Envoyer</button><!--</a>-->
+    
+    </form>
+    <div id="error"></div>
+    <div id="success-msg"></div>
+        </div>
+    </div>
+
+    
+
+    <p class="intro1">Mes réseaux c’est par ici !</p>
+    
+
+    <a href="https://www.instagram.com/theo.rllepro/"><ion-icon class="logo-insta" name="logo-instagram"></ion-icon></a>
+
+    <a href="https://www.linkedin.com/in/th%C3%A9o-reille-5335ba1b9/"><ion-icon class="logo-lk" name="logo-linkedin"></ion-icon></a>
+
+    <a class="insta" href="https://www.instagram.com/theo.rllepro/">@theo.rllepro</a>
+
+    <a class="linke" href="https://www.linkedin.com/in/th%C3%A9o-reille-5335ba1b9/">Théo Reille</a>
+
+    
+
+    <p class="intro1">En savoir plus sur moi</p>
+
+    <div class="cv">
+    <a href="https://acrobat.adobe.com/link/review?uri=urn:aaid:scds:US:4b62a0d0-bc8c-3be3-bf8c-98604801831f"><ion-icon class="logo-cv" name="attach"></ion-icon>
+    <p>Mon CV</p></a>
+    </div>
+
+    <hr class="ligne2">
+        
+    <div class="footer">
+        <strong>Réalisé par</strong> <strong>Théo Reille</strong>
+    </div>
+
+
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+        
+</body>
+</html>

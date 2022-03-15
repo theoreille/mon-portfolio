@@ -1,0 +1,201 @@
+@media screen and (max-width:600px) {
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+    
+    /* BOUTON MAISON */
+    
+    .home {
+        position: absolute;
+        position: fixed;
+        top: 3%;
+        right: 2%;
+        color: white;
+        width: 40px;
+        height: 40px;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+        z-index: 5;
+    }
+    
+    .home:hover {
+        color: #FF71D3;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
+
+    /* DOUBLE FLECHE */
+    
+    .fleche {
+        position: absolute;
+        top: 24%;
+        left: 47%;
+        width: 22px;
+        height: 22px;
+        z-index: 0;
+    }
+    
+    /* LIGNE HORIZONTALE */
+    
+    .ligne1 { 
+        position: absolute;
+        width: 35%;
+        left: 0;
+        top: 73px;
+    } 
+    
+    /* TEXTES + IMAGES (intro) */
+    
+    img.fond  {
+        width: 100%;
+        filter: brightness(45%);
+    }
+    
+    .container1 {
+        position: relative;
+        text-align: left;
+    }
+    
+    .texte_centrer1 {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: Helvetica Neue;
+        font-size: .8em;
+        font-weight: lighter;
+      }
+    
+    .titre strong:nth-child(1) {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: white;
+    }
+    
+    .titre strong:nth-child(2) {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: #FF71D3;
+    }
+    
+    /* PICTO MIC AND SCREEN */
+    
+    .screen,
+    .mic {
+        width: 0;
+        height: 0;
+        color: #FF71D3;
+        position: absolute;
+        z-index: 0;
+    }
+    
+    .mic {
+        top: 243px;
+        right: 330px;
+    }
+    
+    .screen {
+        top: 367px;
+        right: 195px;
+    }
+    
+    /* SOUS TITRES */
+    
+    h2 {
+        font-family: Montserrat;
+        font-weight: 500;
+        font-size: 1em;
+        color: #FF71D3;
+        margin-top: 100px;
+    }
+    
+    .gauche {
+        margin-left: 30px;
+    }
+    
+    .droite {
+        text-align: right;
+        margin-right: 30px;
+    }
+    
+    .container-1 {
+        position: relative;
+        text-align: right;
+    }
+    
+    .container-2 {
+        position: relative;
+        margin-bottom: 80px;
+    }
+    
+    /* LIGNES HORIZONTALES (SOUS TITRE) */
+    
+    .ligne-droite {
+        position: absolute;
+        width: 30%;
+        right: 0;
+        margin: 0;
+        padding: 0;
+    }
+    
+    /* TEXTES + IMAGES */
+    
+    .texte,
+    .texte2 {
+        position: absolute;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: Open Sans;
+        font-size: .6em;
+        font-weight: lighter;
+    }
+    
+    .texte {
+        text-align: left;
+        top: 45%;
+        left: 35%;
+    }
+    
+    .texte2 {
+        text-align: right;
+        top: 47%;
+        right: -21%;
+    }
+    
+    .foot,
+    .reseau {
+        width: 50%;
+        height: 60%;
+    }
+
+    /* FOOTER */
+    
+    .ligne2 { 
+        width: 85%;
+    }
+
+    .footer {
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        margin: 40px 40px;
+    }
+    
+    .footer strong:nth-child(1) {
+        font-weight: 200;
+    }
+    
+    .footer strong:nth-child(2) {
+        font-weight: 400;   
+    }
+
+}

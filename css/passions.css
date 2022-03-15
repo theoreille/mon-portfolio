@@ -1,0 +1,171 @@
+@media screen and (min-width:700px) {
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* BOUTON MAISON */
+
+.home {
+    position: absolute;
+    position: fixed;
+    top: 3%;
+    right: 2%;
+    color: white;
+    width: 50px;
+    height: 50px;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    z-index: 5;
+    -webkit-transform: scale(1);
+      transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.home:hover {
+    color: #FF71D3;
+    transition-duration: .5s;
+    transition-timing-function: ease;
+    -webkit-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+/* LIGNE HORIZONTALE */
+
+.ligne1 { 
+    position: absolute;
+    width: 35%;
+    left: 0;
+    top: 93px;
+} 
+
+/* TEXTES + IMAGES (intro) */
+
+img.fond  {
+    width: 100%;
+    filter: brightness(45%);
+}
+
+.container1 {
+    position: relative;
+    text-align: left;
+}
+
+.texte_centrer1 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 2.2em;
+    font-weight: lighter;
+  }
+
+.titre strong:nth-child(1) {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2.2em;
+    color: white;
+}
+
+.titre strong:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2em;
+    color: #FF71D3;
+}
+
+/* PICTO MIC AND SCREEN */
+
+.screen,
+.mic {
+    color: #FF71D3;
+    position: absolute;
+    z-index: 0;
+}
+
+.mic {
+    top: 243px;
+    right: 330px;
+}
+
+.screen {
+    top: 367px;
+    right: 195px;
+}
+
+/* SOUS TITRES */
+
+h2 {
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 1.8em;
+    color: #FF71D3;
+    margin-top: 100px;
+}
+
+.gauche {
+    margin-left: 110px;
+}
+
+.droite {
+    text-align: right;
+    margin-right: 110px;
+}
+
+.container-1 {
+    position: relative;
+    text-align: right;
+}
+
+.container-2 {
+    position: relative;
+    margin-bottom: 80px;
+}
+
+/* LIGNES HORIZONTALES (SOUS TITRE) */
+
+.ligne-droite {
+    position: absolute;
+    width: 20%;
+    right: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* TEXTES + IMAGES */
+
+.texte,
+.texte2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Open Sans;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.texte {
+    text-align: left;
+    top: 45%;
+    left: 25%;
+}
+
+.texte2 {
+    text-align: right;
+    top: 45%;
+    right: -5%;
+}
+
+.foot,
+.reseau {
+    width: 50%;
+    height: 60%;
+}
+
+}

@@ -1,0 +1,62 @@
+@media screen and (min-width:700px) {
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.grid-item,
+a {
+    border: none;
+    height: 700px;
+    max-width: 24.7%;
+    object-fit: cover;
+    display:inline-flex;
+    position: relative;
+}
+
+.flex-grid {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: larger;
+}
+
+.img1,
+.img2,
+.img3,
+.img4 {
+   position: relative;
+   filter: brightness(50%);
+} 
+
+.texte_centrer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1em;
+  color: white ;
+  text-decoration: none;
+  transition-duration: .5s;
+  transition-timing-function:ease;
+}
+
+.texte_centrer:hover {
+  font-size: 1.5em;
+  color: rgb(59, 197, 252);
+  transition-duration: .5s;
+  transition-timing-function: ease;
+}
+
+.grid-item {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.grid-item:hover {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+}

@@ -1,0 +1,281 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+/* LIGNE HORIZONTALE */
+
+.ligne1 { 
+    position: absolute;
+    width: 35%;
+    left: 0;
+    top: 93px;
+} 
+
+/* TEXTES + IMAGES (intro) */
+
+img.fond  {
+    width: 100%;
+    filter: brightness(30%);
+}
+
+.container1 {
+    position: relative;
+    text-align: left;
+}
+
+.texte_centrer1 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 2.2em;
+    font-weight: lighter;
+  }
+
+img.apercu-1 {
+      position: absolute;
+      top: 330px;
+      right: 270px;
+      width: 260px;
+      height: 230px;
+      z-index: 0;
+}
+
+img.apercu-2 {
+    position: absolute;
+    top: 180px;
+    right: 210px;
+    width: 110px;
+    height: 230px;
+    z-index: 0;
+}
+
+/* DOUBLE FLECHE */
+
+.fleche {
+    position: absolute;
+    top: 85%;
+    left: 48.5%;
+    width: 42px;
+    height: 42px;
+}
+
+
+/* TITRE */
+
+.titre {
+    margin: 30px 30px;
+    color: white;
+    text-decoration: solid 1px white;
+}
+
+.titre-proj-indiv,
+.titre-proj-coll {
+    margin: 40px 40px;
+}
+
+.titre-proj1,
+.titre-proj2 {
+    margin: 30px 300px;
+}
+
+.titre strong:nth-child(1) {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2.2em;
+}
+
+.titre strong:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 2.2em;
+}
+
+/* TITRES INDIV. OU COLL.*/
+
+.titre-proj-indiv,
+.titre-proj-coll {
+    text-align: center;
+}
+
+.titre-proj-indiv strong:nth-child(1),
+.titre-proj-coll strong:nth-child(1) {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 2.2em;
+    color: white;
+}
+
+.titre-proj-indiv strong:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2em;
+    color: #E85733;
+}
+
+.titre-proj-coll strong:nth-child(2) {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2em;
+    color: #bb4dff;
+}
+
+/* TITRES DES PROJETS */
+
+.titre-proj1 strong:nth-child(1),
+.titre-proj2 strong:nth-child(1) {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.8em;
+    color: white;
+}
+
+.titre-proj1 strong:nth-child(2),
+.titre-proj2 strong:nth-child(2) {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 1.8em;
+}
+
+/* COULEURS TITRES */
+
+.titre-proj1 strong:nth-child(2) {
+    color: #E85733;
+}
+
+.titre-proj2 strong:nth-child(2) {
+    color: #bb4dff;
+}
+
+/* LIGNE EN POINTILLÉE */
+
+.vertical { 
+    border-left: 2.5px dashed white;
+	display: inline-block;
+	height: 130px;
+	margin: 0 50%;
+} 
+
+
+/* TOUS LES PROJETS */ 
+
+.fond-ps1,
+.fond-esport,
+.fond-mini,
+.fond-ps2,
+.fond-tiktok {
+    position: relative;
+    width: 65%;
+    filter: brightness(25%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 36px;
+    z-index: 1;
+}
+
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+    position: relative;
+    text-align: left;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.container2:hover,
+.container3:hover,
+.container4:hover,
+.container5:hover,
+.container6:hover {
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+
+
+.texte_ps1,
+.texte_esport,
+.texte_mini,
+.texte_ps2,
+.texte_tiktok {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 38%;
+    color: white;
+    font-family: Helvetica Neue;
+    font-size: 1.8em;
+    font-weight: lighter;
+    z-index: 2;
+}
+
+.fleche1,
+.fleche2,
+.fleche3,
+.fleche4,
+.fleche5 {
+    position: relative;
+    left: 75%;
+    top: -60px;
+    z-index: 2;
+    color: white;
+    transition-duration: .5s;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.fleche1:hover,
+.fleche2:hover {
+    color: #E85733;
+    transition-duration: .5s;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+.fleche3:hover,
+.fleche4:hover,
+.fleche5:hover {
+    color: #bb4dff;
+    transition-duration: .5s;
+    -webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+
+/* LIGNE HORIZONTALE FOOTER */
+
+.ligne2 { 
+    width: 85%;
+} 
+
+/* FOOTER */
+
+.footer {
+    font-family: Montserrat;
+    font-style: normal;
+    font-size: 1.5em;
+    color: white;
+    text-align: center;
+    margin: 40px 40px;
+}
+
+.footer strong:nth-child(1) {
+    font-weight: 200;
+}
+
+.footer strong:nth-child(2) {
+    font-weight: 400;   
+}

@@ -1,0 +1,181 @@
+@media screen and (max-width:600px) { 
+
+    html, body {
+        margin: 0;
+        padding: 0;
+        background-color: black;
+    }
+    
+    /* LIGNE HORIZONTALE */
+    
+    .ligne1 { 
+        position: absolute;
+        width: 35%;
+        left: 0;
+        top: 73px;
+    } 
+    
+    /* BOUTON MAISON */
+    
+    .home {
+        position: absolute;
+        position: fixed;
+        top: 3%;
+        right: 2%;
+        color: white;
+        width: 40px;
+        height: 40px;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+        z-index: 5;
+    }
+    
+    .home:hover {
+        color: #B9D22E;
+        transition-duration: .5s;
+        transition-timing-function: ease;
+    }
+
+     /* DOUBLE FLECHE */
+    
+     .fleche {
+        position: absolute;
+        top: 24%;
+        left: 47%;
+        width: 22px;
+        height: 22px;
+        z-index: 0;
+    }
+    
+    /* TEXTES + IMAGES (intro) */
+    
+    img.fond  {
+        width: 100%;
+        filter: brightness(45%);
+    }
+    
+    .container1 {
+        position: relative;
+        text-align: left;
+    }
+    
+    .texte_centrer1 {
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-family: Helvetica Neue;
+        font-size: .8em;
+        font-weight: lighter;
+      }
+    
+    .titre strong:nth-child(1) {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: white;
+    }
+    
+    .titre strong:nth-child(2) {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 1.2em;
+        color: #B9D22E;
+    }
+    
+    /* PICTO MAP */
+    
+    .map {
+        color: #B9D22E;
+        position: absolute;
+        top: 280px;
+        right: 250px;
+        width: 0;
+        height: 0;
+        z-index: 0;
+    }
+    
+    /* SOUS TITRES */
+    
+    h3 {
+        font-family: Helvetica Neue;
+        color: white;
+        font-weight: 300;
+        text-align: center;
+        font-size: 1em;
+    }
+    
+    h4 {
+        font-family: Helvetica Neue;
+        font-style: italic;
+        color: #B9D22E;
+        text-align: center;
+        font-size: .9em;
+    }
+    
+    .ligne-sous {
+        width: 50%;
+    }
+    
+    /* PARCOURS */
+    
+    .parcours-1 img {
+        width: 70%;
+        height: 35%;
+        margin-left: 50px;
+    }
+    
+    .parcours-1 {
+        margin: 50px 30px;
+    }
+    
+    .parcours-1txt {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    
+    .annee strong:nth-child(1),
+    .exp strong:nth-child(1),
+    .dipl strong:nth-child(1) {
+        font-family: Open Sans;
+        font-weight: 200;
+        font-size: .6em;
+    }
+    
+    .annee strong:nth-child(2),
+    .exp strong:nth-child(2),
+    .dipl strong:nth-child(2) {
+        font-family: Open Sans;
+        font-weight: bold;
+        font-size: .6em;
+    }
+    
+    /* FOOTER */
+    
+    .ligne2 { 
+        width: 85%;
+    }
+
+    .footer {
+        font-family: Montserrat;
+        font-style: normal;
+        font-size: 1em;
+        color: white;
+        text-align: center;
+        margin: 40px 40px;
+    }
+    
+    .footer strong:nth-child(1) {
+        font-weight: 200;
+    }
+    
+    .footer strong:nth-child(2) {
+        font-weight: 400;   
+    }
+
+
+
+}
